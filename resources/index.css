@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 153, 130) ;
+    font-family: 'Open Sans', Arial;
+}
+
+nav, footer{
+    background-color: 		rgb(0, 128, 128);
+    color: rgb(255, 153, 130);
+    width: 100%;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+footer a, nav a{
+    display: block;
+    color: rgb(255, 153, 130);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.heading{
+    background-color: rgba(128, 70, 27, 0.4);
+    color: rgb(255, 118, 88);
+    text-align: center;
+    margin-top: 100px;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.mission h2{
+    color: yellow;
+}
+
+.mission p{
+    color: white;
+    width: 50%;
+}
+
+.mission img {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+#testimonial{
+    color: yellow;
+    padding-top: 15px;
+    padding-bottom: 75px;
+    background-color: 		rgb(0, 128, 128);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#quote{
+font-size: 30px;
+}
+
+#quotecredit{
+    font-size: 10px;
+}
+
+#top3 {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+.gallery p{
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+}
+
+#bottom1{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
